@@ -24,7 +24,7 @@ class Atleta {
     }
 
     calculaIMC() {
-        return (this.peso / (this.altura * this.altura)).toFixed(2);
+        return (this.peso / (this.altura * this.altura));
     }
 
     calculaMediaValida() {
@@ -68,4 +68,5 @@ console.log("Peso:", atleta.obtemPesoAtleta());
 console.log("Notas:", atleta.obtemNotasAtleta());
 console.log("Categoria:", atleta.obtemCategoria());
 console.log("IMC:", atleta.obtemIMC());
+
 console.log("Média válida:", atleta.obtemMediaValida());
